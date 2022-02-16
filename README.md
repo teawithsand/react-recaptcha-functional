@@ -1,6 +1,6 @@
 # react-recaptcha-functional
 
-Another recaptcha v2 implementation for react.
+Another recaptcha V2 implementation for react.
 
 ## Is it production ready?
 Dunno, but I am going to use it, since it's open source rewrite/port of small component that I've been already using for a while.
@@ -21,4 +21,4 @@ In general for testing use example. It's quite hard to write some reasonable tes
 Selenium could help for automatization, but it's not worth it IMO.
 
 ## V3 support
-Recaptcha V3 is quite easy to use with react
+Recaptcha V3 is quite easy to use with react even without custom lib, so I won't wrap it in this library.
