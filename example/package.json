@@ -1,0 +1,40 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "description": "Example for react-recaptcha-tutorial",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "@symfony/webpack-encore": "^1.8.1",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.6"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-recaptcha-functional": "file:../dist"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "files": [
+    "/dist"
+  ]
+}
